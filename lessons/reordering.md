@@ -1,7 +1,7 @@
 
 
 ## Reordering data using indices
-Often during data wrangling we find it necessary to reorder the elements in a vector or the rows or columns in a data frame. The most basic way to reorder is to use the indices associated with each element in a vector. Indexing `[ ]` can be used to extract values from a dataset as we saw earlier, but we can also use it to rearrange our data values. 
+Often during data wrangling we find it necessary to reorder the elements in a vector or the rows or columns in a data frame. The most basic way to reorder is to use the indices associated with each element in a vector. Indexing `[ ]` can be used to extract values from a dataset, but it can also be used to rearrange the data values. 
 
 ```r
 alphabet <- c("C", "F", "G", "A", "D", "E", "B")
