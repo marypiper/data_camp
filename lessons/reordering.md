@@ -31,7 +31,7 @@ Let's reorder the elements to follow the order of the alphabet:
 alphabet[c(4, 7, 1, 5, 6, 2, 3)] 
 ```
 
-<img src="../img/alphabet_ordered.png" width="500">
+<img src="../img/alphabet_ordered.png" width="450">
 
 If we want to save our results, we need to assign to a variable:
 
