@@ -48,6 +48,10 @@ df[c(1, 3, 5, 2, 4, 6), ]
 ```
 <img src="../img/df_ordered_rows.png" width="250">
 
+```r
+df <- df[c(1, 3, 5, 2, 4, 6), ]
+```
+
 To reorder the columns so that the `sampleID` column is the first followed by `treatment` and `replicate`, we can write the indices for the columns in the order we would like them to appear:
 
 ```r
