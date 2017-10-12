@@ -12,7 +12,6 @@ We can extract values in a vector by specifying it's position or index:
 
 ```r
 alphabet[c(7, 4, 5)] # Extracting values from a vector
-alphabet
 ```
 
 <img src="../img/alphabet_unordered_highlight.png" width="500">
