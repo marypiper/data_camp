@@ -55,6 +55,6 @@ To reorder the columns so that the `sampleID` column is the first followed by `t
 df[ , c(2, 1, 3)]
 ```
 
-<img src="../img/df_ordered_cols.png" width="195">
+<img src="../img/df_ordered_cols.png" width="250">
 
 There are functions to help with reordering data in alphabetical or numeric order, such as `order()`, `sort()`, and `arrange()`, among others. However, these functions will generally output the indices for reordering so that this step does not need to be done manually.
