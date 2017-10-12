@@ -33,7 +33,7 @@ alphabet[c(4, 7, 1, 5, 6, 2, 3)]
 
 <img src="../img/alphabet_ordered.png" width="475">
 
-If we want to save our results, we need to assign to a variable:
+If we want to save our results, we need to assign back to a variable:
 
 ```r
 ordered_alphabet <- alphabet[c(4, 7, 1, 5, 6, 2, 3)] 
