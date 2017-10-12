@@ -38,7 +38,7 @@ If we want to save our results, we need to assign back to a variable:
 ```r
 ordered_alphabet <- alphabet[c(4, 7, 1, 5, 6, 2, 3)] 
 ```
-We use a similar strategy to reorder the rows or columns in a data frame. For instance with the following dataframe, `df`
+We use a similar strategy to reorder the rows or columns in the data frame `df`:
 
 <img src="../img/df_unordered.png" width="250">
 
