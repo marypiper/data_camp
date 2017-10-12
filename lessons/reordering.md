@@ -57,4 +57,4 @@ df[ , c(2, 1, 3)]
 
 <img src="../img/df_ordered_cols.png" width="250">
 
-There are functions to help with reordering data in alphabetical or numeric order, such as `order()`, `sort()`, and `arrange()`, among others. However, these functions will generally output the indices for reordering so that this step does not need to be done manually.
+There are functions to help with reordering data in alphabetical or numeric order, such as `order()`, `sort()`, and `arrange()`, among others, so this step doesn't need to always be done manually. However, it is likely that you will find yourself needing to reorder your data for use of different tools or for data wrangling, in general.
