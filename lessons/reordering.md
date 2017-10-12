@@ -38,7 +38,7 @@ If we want to save our results, we need to assign back to a variable:
 ```r
 ordered_alphabet <- alphabet[c(4, 7, 1, 5, 6, 2, 3)] 
 ```
-We use a similar strategy to reorder the rows or columns in a data frame. For instance with the following dataframe, `df`
+We use a similar strategy to reorder the rows or columns in the data frame `df`:
 
 <img src="../img/df_unordered.png" width="250">
 
@@ -47,7 +47,7 @@ To reorder the rows so that the sampleIDs are in numerical order, we can write t
 ```r
 df[c(1, 3, 5, 2, 4, 6), ]
 ```
-<img src="../img/df_reorder_rows.png" width="250">
+<img src="../img/df_ordered_rows.png" width="250">
 
 To reorder the columns so that the `sampleID` column is the first followed by `treatment` and `replicate`, we can write the indices for the columns in the order we would like them to appear:
 
@@ -55,6 +55,6 @@ To reorder the columns so that the `sampleID` column is the first followed by `t
 df[ , c(2, 1, 3)]
 ```
 
-<img src="../img/df_reorder_cols.png" width="195">
+<img src="../img/df_ordered_cols.png" width="250">
 
 There are functions to help with reordering data in alphabetical or numeric order, such as `order()`, `sort()`, and `arrange()`, among others. However, these functions will generally output the indices for reordering so that this step does not need to be done manually.
